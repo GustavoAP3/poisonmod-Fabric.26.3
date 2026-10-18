@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/GustavoAP3/poisonmod-Fabric.26.3"
 	},
 	"license": "MIT-License",
 	"icon": "assets/poisonmod/icon.png",
