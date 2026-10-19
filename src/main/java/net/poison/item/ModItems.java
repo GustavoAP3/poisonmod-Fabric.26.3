@@ -16,6 +16,8 @@ public class ModItems {
     // se precisar adicinar propriedades ao item, é melhor usar essa forma de inicia-lo:
     //public static final Item AZURITE = registerItem("azurite", properties -> new Item(properties));
     public static final Item AZURITE = registerItem("azurite", Item::new);
+    public static final Item RAW_AZURITE = registerItem("raw_azurite", Item::new);
+    public static final Item P_POWDER = registerItem("p_powder", Item::new);
 
 
 
@@ -26,8 +28,10 @@ public class ModItems {
     }
 
     public static void registerModItems(){
-        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register(output -> {
-            output.accept(AZURITE);
-        });
+//        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register(output -> {
+//            output.accept(RAW_AZURITE);
+//            output.accept(AZURITE);
+//            output.accept(P_POWDER);
+//        });
     }
 }
